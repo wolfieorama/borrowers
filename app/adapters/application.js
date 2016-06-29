@@ -1,4 +1,7 @@
-import JSONAPIAdapter from 'ember-data/adapters/json-api';
+import ActiveModelAdapter from 'active-model-adapter';
 
-export default JSONAPIAdapter.extend({
+export default ActiveModelAdapter.extend({
+  namespace: 'api'
 });
+
+// Import the default export from active-model-adapter
