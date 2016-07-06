@@ -3,5 +3,5 @@
 <h2>Total friends: {{model.length}}</h2>
 
 {{#each model as |friend|}}
-  <li>{{friend.firstName}} {{friend.lastName}} </li>
+  <li>{{friend.id}} {{fullname.friend}} {{friend.firstName}} {{friend.lastName}} {{friend.twitter}} </li>
 {{/each}}
